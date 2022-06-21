@@ -1,42 +1,14 @@
 import "../App.css"
-import logo from '../images/logo.png'
 import prom1 from '../images/promotion1.jpg'
 import prom2 from '../images/promotion2.jpg'
 import prom3 from '../images/promotion3.jpg'
 import prom4 from '../images/promotion4.jpg'
 
 
-
 function Main() {
 
     return (
         <div>
-            <nav className="navbar navbar-expand-lg navbar-light bg-light">
-                <div className="container-fluid">
-                    <a class="navbar-brand" href="#">
-                        <img src={logo} alt="plane" height="30" width="100" />
-                    </a>
-                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon"></span>
-                    </button>
-                    <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li className="nav-item">
-                                <a className="nav-link" href="#">Акции</a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link" href="#">Поиск</a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link" href="#">Регистрация на рейс</a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link" href="#">Личный кабинет</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
 
             <div className='container-fluid'>
                 <div className='row text-dark text-wrap text-break my-5 mx-2'>
@@ -218,47 +190,12 @@ function Main() {
                     </form>
                </div>
 
-                <footer>
-                    <div class="container text-center text-md-left mt-5">
-                        <div class="row mt-3">
-                            <div class="mx-auto mb-md-0 mb-4">
-                                <h6 class="text-uppercase font-weight-bold mt-3">Телефон</h6>
-                                <p>
-                                    8 (800) 100-10-10
-                                </p>
-                                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 ">
-                                    <h6 class="text-uppercase font-weight-bold">Навигация по сайту</h6>
-                                    <hr class="mb-4 mt-0 d-inline-block mx-auto "/>
-                                        <p>
-                                            <a class="text-black links" href="http://www.osu.ru/doc/90">Главная</a>
-                                        </p>
-                                        <p>
-                                            <a class="text-black links" href="http://www.osu.ru/doc/2410">Войти</a>
-                                        </p>
-                                        <p>
-                                            <a class="text-black links" href="http://ciscotrain.osu.ru">Зарегистрироваться</a>
-                                        </p>
-                                        <p>
-                                            <a class="text-black links" href="http://ciscotrain.osu.ru">Контакты</a>
-                                        </p>
-                                        <p>
-                                            <a class="text-black links" href="http://ciscotrain.osu.ru">Новости</a>
-                                        </p>
-                                        <p>
-                                            <a class="text-black links" href="http://ciscotrain.osu.ru">Возврат</a>
-                                        </p>
-                                        <p>
-                                            <a class="text-black links" href="http://ciscotrain.osu.ru">Обратная связь</a>
-                                        </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </footer>
+                
 
-            </div>
+            </div>   
 
         </div>
+
     );
 }
 
