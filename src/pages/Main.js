@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import "../App.css"
 import prom1 from '../images/promotion1.jpg'
 import prom2 from '../images/promotion2.jpg'
@@ -120,7 +121,7 @@ function Main() {
                                 <label for="passangers" class="form-label">Количество пассажиров</label>
                                 <input type="text" id="passangers" class="form-control" pattern="[1-8]" placeholder="Число пассажиров не должно превышать 8 человек" />
                             </div>
-                            <button type="submit" class="btn btn-primary ml-3">Поиск билетов</button>
+                            <Link to="/searchingResult"><button type="submit" class="btn btn-primary ml-3">Поиск билетов</button></Link>
                         </form>
                     </div>
                 </div>
