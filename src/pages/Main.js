@@ -4,7 +4,6 @@ import prom2 from '../images/promotion2.jpg'
 import prom3 from '../images/promotion3.jpg'
 import prom4 from '../images/promotion4.jpg'
 
-
 function Main() {
 
     return (
@@ -189,13 +188,8 @@ function Main() {
                         <button type='sumbit' className='btn btn-primary'>Подписаться</button>
                     </form>
                </div>
-
-                
-
             </div>   
-
         </div>
-
     );
 }
 
