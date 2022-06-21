@@ -1,10 +1,11 @@
-import logo from './logo.svg';
+import Main from './pages/Main'
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
     <div className="App">
-      
+      <Main/>
     </div>
   );
 }
