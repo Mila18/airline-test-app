@@ -13,10 +13,10 @@ function Nav (){
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <Link className="nav-link" to="/login">Акции</Link>
+                                <Link className="nav-link" to="/">Акции</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="/search">Поиск</Link>
+                                <Link className="nav-link" to="/searchingResult">Поиск</Link>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link" to="/booking">Регистрация на рейс</Link>

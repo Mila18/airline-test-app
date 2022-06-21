@@ -1,8 +1,10 @@
+import { Link } from "react-router-dom";
+
 function SearchingResult() {
     return (
         <div className="container-fluid">
             <table class="table align-middle mb-0 bg-white">
-                <thead class="bg-light">
+                <thead class="table-info">
                     <tr>
                         <th>Номер рейса</th>
                         <th>Воздушное судно</th>
@@ -185,6 +187,10 @@ function SearchingResult() {
                     </tr>
                 </tbody>
             </table>
+            <div className="text-center mt-5">
+            <Link to="/booking"><button className="btn btn-primary">Бронировать</button></Link>
+            </div>
+            
         </div>
     );
 }
