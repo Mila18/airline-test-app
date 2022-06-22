@@ -2,14 +2,13 @@ import { Link } from "react-router-dom";
 
 function Booking() {
     return (
-        <div className="container-fluid">
-            <h2 className="text-center">Бронировать</h2>
-            
-                <div className="row mx-3">
-                    <div className="col-7">
-                    
-                        <h4>Данные о рейсах</h4>
-                        <form>
+        <div className="container-xxl my-5">
+
+            <div className="row mx-3">
+                <div className="col-md-6 col-sm-12">
+
+                    <h4 className="mb-4">Данные о рейсах</h4>
+                    <form>
                         <div className="mb-3">
                             <label htmlFor="number" className="form-label">Номер рейса</label>
                             <input type="text" id="number" className="form-control" placeholder="Введите номер рейса" />
@@ -74,14 +73,12 @@ function Booking() {
                             <label htmlFor="cost" className="form-label">Стоимость</label>
                             <input type="number" id="cost" className="form-control" disabled placeholder="11540" />
                         </div>
+                    </form>
+                </div>
 
-                       
-                        </form>
-                    </div>
-
-                    <div className="col-4 ml-5">
-                        <h4>Данные о пассажирах</h4>
-                        <form>
+                <div className="col-md-5 col-sm-12 offset-md-1">
+                    <h4 className="mb-4">Данные о пассажирах</h4>
+                    <form>
                         <div className="mb-3">
                             <label htmlFor="name" className="form-label">Имя</label>
                             <input type="text" id="name" className="form-control" placeholder="Введите номер рейса" />
@@ -98,23 +95,29 @@ function Booking() {
                             <label htmlFor="docnumber" className="form-label">Номер документа</label>
                             <input type="text" id="docnumber" className="form-control" placeholder="Введите номер рейса" />
                         </div>
-                        <button type="submit" className="btn btn-success ml-3">Добавить пассажира</button>
-                        <button type="submit" className="btn btn-dark ml-3">Удалить пассажира</button>
-                        </form>
-                        
-                    </div>
-                   
-                    <h3 align="center">Финальная стоимость<span className="text-success"> 20540</span></h3>
-                    
-                    <p className="text-center">
-                        <Link to="/bookingManagement">
-                            <button type="submit" className="btn btn-primary ml-3">Оформить бронь</button>
-                        </Link>         
-                    </p>
+                        <div className="mb-3 text-center">
+                            <button type="submit" className="btn btn-outline-success">Добавить пассажира</button>
+                        </div>
+                        <div className="mb-3 text-center">
+                            <button type="submit" className="btn btn-outline-dark">Удалить пассажира</button>
+                        </div>
+                    </form>
 
                 </div>
 
-          
+                <div className="col-12">
+                <h3 className="my-4">Финальная стоимость<span className="text-primary"> 20540</span></h3>
+            <p className="my-4">
+                <Link to="/bookingManagement">
+                    <button type="submit" className="btn btn-primary">Оформить бронь</button>
+                </Link>
+            </p>
+                </div>
+
+            </div>
+            
+
+
         </div>
     );
 }

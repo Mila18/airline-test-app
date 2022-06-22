@@ -2,8 +2,8 @@ import { Link } from "react-router-dom";
 
 function SearchingResult() {
     return (
-        <div className="container-fluid">
-            <table className="table align-middle mb-0 bg-white">
+        <div className="container-fluid my-5">
+            <table className="table align-middle bg-white">
                 <thead className="table-info">
                     <tr>
                         <th>Номер рейса</th>

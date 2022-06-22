@@ -2,20 +2,27 @@ import { Link, NavLink } from 'react-router-dom';
 
 function Footer() {
     return (
-        <footer className='text-center footer'>
-       <div className='container-fluid'>
+        <footer className='text-center footer mt-5'>
+       <div className='container-fluid py-4'>
        <div className="row">
-                    <div className="col-12 my-5">
-                        <Link className="text-uppercase text-black links mx-3" to="/">Главная</Link>
-                        <Link className="text-uppercase text-black links mx-3" to="/login">Войти</Link>
-                        <Link className="text-uppercase text-black links mx-3" to="/registration">Зарегистрироваться</Link>
-                        <Link className="text-uppercase text-black links mx-3" to="/">Контакты</Link>
-                        <Link className="text-uppercase text-black links mx-3" to="/">Новости</Link>
-                        <Link className="text-uppercase text-black links mx-3" to="/">Возврат</Link>
-                        <Link className="text-uppercase text-black links mx-3" to="/">Обратная связь</Link>
+                    <div className="col-md-4 col-lg-2 my-2">
+                        <Link className="text-uppercase text-black links mx-3" to="/">Главная</Link>                       
                     </div>
-
-          
+                    <div className="col-md-4 col-lg-2 my-2">
+                    <Link className="text-uppercase text-black links mx-3" to="/login">Войти</Link>                     
+                    </div>
+                    <div className="col-md-4 col-lg-2 my-2">
+                    <Link className="text-uppercase text-black links mx-3" to="/registration">Зарегистрироваться</Link>                       
+                    </div>
+                    <div className="col-md-4 col-lg-2 my-2">
+                    <Link className="text-uppercase text-black links mx-3" to="/">Контакты</Link>                       
+                    </div>
+                    <div className="col-md-4 col-lg-2 my-2">
+                    <Link className="text-uppercase text-black links mx-3" to="/">Новости</Link>                      
+                    </div>
+                    <div className="col-md-4 col-lg-2 my-2">
+                    <Link className="text-uppercase text-black links mx-3" to="/">Возврат</Link>                       
+                    </div>
                 </div>
 
        </div>
