@@ -1,9 +1,9 @@
 function Registration(){
     return(      
-      <div className="container-fluid my-5">
+      <div className="container-xl my-5">
         <section>
           <div className="row d-flex align-items-center ">
-            <div className="col-lg-5 col-md-12 offset-lg-1">
+            <div className="col-lg-6 col-md-12">
               <form>
                 <p className=" text-center lead fw-normal me-3 fs-3">Регистрация</p>
                 <div className="d-flex flex-row align-items-center mb-4">

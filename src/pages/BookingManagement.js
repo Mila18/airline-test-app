@@ -2,12 +2,12 @@ import { Link } from "react-router-dom";
 
 function BookingManagement (){
     return(
-        <div className="container-fluid">
+        <div className="container-xl my-5">
             <div className="row">
                 <div className="col-4">
                     <h3>Информация о бронировании</h3>
                     <table className="table mb-0">
-                    <thead className="table-warning">
+                    <thead className="table-info">
                         <tr>
                             <th>Код бронирования</th>
                             <th>Стоимость</th>
@@ -29,7 +29,7 @@ function BookingManagement (){
                 <div className="col-8">
                     <h3>Информация о пассажирах</h3>
                     <table className="table mb-0">
-                    <thead className="table-primary">
+                    <thead className="table-info">
                         <tr>
                             <th>Имя</th>
                             <th>Фамилия</th>
@@ -194,7 +194,7 @@ function BookingManagement (){
                 
             </div>
             <div className="my-5 text-center">
-            <Link to="/seat"><button className="btn btn-success">Выбрать место</button></Link>
+            <Link to="/seat"><button className="btn btn-primary">Выбрать место</button></Link>
             </div>
         </div>
     );

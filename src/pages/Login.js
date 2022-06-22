@@ -1,12 +1,12 @@
 function Login() {
     return (
-        <div className="container-fluid my-5">
+        <div className="container-xl my-5">
             <section>
                     <div className="row d-flex justify-content-center align-items-center h-100">
-                        <div className="col-md-9 col-lg-6 col-xl-5">
+                        <div className="col-md-9 col-lg-6 col-xl-6">
                             <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-registration/draw1.webp" className="img-fluid" alt="" />
                         </div>
-                        <div className="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
+                        <div className="col-md-8 col-lg-6 col-xl-6">
                             <form>
                                 <p className=" text-center lead fw-normal mb-5 me-3 fs-3">Авторизация</p>
 

@@ -2,11 +2,11 @@ import { Link } from "react-router-dom";
 
 function SearchingResult() {
     return (
-        <div className="container-fluid my-5">
-            <table className="table align-middle bg-white">
+        <div className=" my-5">
+            <table className="table align-middle bg-white ">
                 <thead className="table-info">
                     <tr>
-                        <th>Номер рейса</th>
+                        <th className="px-4">Номер рейса</th>
                         <th>Воздушное судно</th>
                         <th>Дата вылета</th>
                         <th>Время вылета</th>
@@ -18,7 +18,7 @@ function SearchingResult() {
                 </thead>
                 <tbody>
                     <tr>
-                        <td>
+                        <td className="px-4">
                             <p className="fw-normal mb-1">93</p>
                         </td>
 
@@ -52,7 +52,7 @@ function SearchingResult() {
                     </tr>
 
                     <tr>
-                        <td>
+                        <td className="px-4">
                             <p className="fw-normal mb-1">78</p>
                         </td>
 
@@ -86,7 +86,7 @@ function SearchingResult() {
                     </tr>
 
                     <tr>
-                        <td>
+                        <td className="px-4">
                             <p className="fw-normal mb-1">719</p>
                         </td>
 
@@ -120,7 +120,7 @@ function SearchingResult() {
                     </tr>
 
                     <tr>
-                        <td>
+                        <td className="px-4">
                             <p className="fw-normal mb-1">78</p>
                         </td>
 
@@ -153,7 +153,7 @@ function SearchingResult() {
                         </td>
                     </tr>
                     <tr>
-                        <td>
+                        <td className="px-4">
                             <p className="fw-normal mb-1">93</p>
                         </td>
 

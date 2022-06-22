@@ -1,18 +1,18 @@
 function Profile(){
     return(
-        <div className="container-fluid my-5">
-          <div className="container">
+        <div className="container-xl my-5">
+          
           <div className="main-body">
           <div className="row gutters-sm">
   
             <div className="col-md-5">
-            <h3>Личные данные</h3>
+            <h3 className="mb-4">Личные данные</h3>
               <div className="card px-3 py-3">
                 <div className="row">
-                    <div className="col-sm-3">
+                    <div className="col-sm-4">
                       <h6 className="mb-0">Имя</h6>
                     </div>
-                    <div className="col-sm-9 text-secondary">
+                    <div className="col-sm-8 text-secondary">
                       Чак
                     </div>
                   </div>
@@ -20,10 +20,10 @@ function Profile(){
                   <hr/>
   
                   <div className="row">
-                    <div className="col-sm-3">
+                    <div className="col-sm-4">
                       <h6 className="mb-0">Фамилия</h6>
                     </div>
-                    <div className="col-sm-9 text-secondary">
+                    <div className="col-sm-8 text-secondary">
                       Паланик
                     </div>
                   </div>
@@ -31,10 +31,10 @@ function Profile(){
                   <hr/>
   
                   <div className="row">
-                    <div className="col-sm-3">
+                    <div className="col-sm-4">
                       <h6 className="mb-0">Число полетов</h6>
                     </div>
-                    <div className="col-sm-9 text-secondary">
+                    <div className="col-sm-8 text-secondary">
                       18
                     </div>
                   </div>
@@ -51,17 +51,17 @@ function Profile(){
 
 
             <div className="col-md-7">
-            <h3>Предстоящие бронирования</h3>
+            <h3 className="mb-4">Предстоящие бронирования</h3>
               <div className="card mb-3">
                   
                 <div className="card-body">
                     
   
                   <div className="row">
-                    <div className="col-sm-3">
+                    <div className="col-sm-4">
                       <h6 className="mb-0">Код бронирования</h6>
                     </div>
-                    <div className="col-sm-9 text-secondary">
+                    <div className="col-sm-8 text-secondary">
                       926671N
                     </div>
                   </div>
@@ -69,10 +69,10 @@ function Profile(){
                   <hr/>
   
                   <div className="row">
-                    <div className="col-sm-3">
+                    <div className="col-sm-4">
                       <h6 className="mb-0">Дата вылета</h6>
                     </div>
-                    <div className="col-sm-9 text-secondary">
+                    <div className="col-sm-8 text-secondary">
                       19.08.2022
                     </div>
                   </div>
@@ -80,10 +80,10 @@ function Profile(){
                   <hr/>
   
                   <div className="row">
-                    <div className="col-sm-3">
+                    <div className="col-sm-4">
                       <h6 className="mb-0">Время вылета</h6>
                     </div>
-                    <div className="col-sm-9 text-secondary">
+                    <div className="col-sm-8 text-secondary">
                       04:48
                     </div>
                   </div>
@@ -91,10 +91,10 @@ function Profile(){
                   <hr/>
 
                   <div className="row">
-                    <div className="col-sm-3">
+                    <div className="col-sm-4">
                       <h6 className="mb-0">Время прилета</h6>
                     </div>
-                    <div className="col-sm-9 text-secondary">
+                    <div className="col-sm-8 text-secondary">
                       6:05
                     </div>
                   </div>
@@ -102,10 +102,10 @@ function Profile(){
                   <hr/>
 
                   <div className="row">
-                    <div className="col-sm-3">
+                    <div className="col-sm-4">
                       <h6 className="mb-0">Аэропорт вылета</h6>
                     </div>
-                    <div className="col-sm-9 text-secondary">
+                    <div className="col-sm-8 text-secondary">
                       Домодедово
                     </div>
                   </div>
@@ -113,10 +113,10 @@ function Profile(){
                   <hr/>
 
                   <div className="row">
-                    <div className="col-sm-3">
+                    <div className="col-sm-4">
                       <h6 className="mb-0">Аэропот назначения</h6>
                     </div>
-                    <div className="col-sm-9 text-secondary">
+                    <div className="col-sm-8 text-secondary">
                       Хитроу
                     </div>
                   </div>
@@ -128,7 +128,7 @@ function Profile(){
           </div>
         </div>
           </div>
-      </div>
+    
     );
 }
 

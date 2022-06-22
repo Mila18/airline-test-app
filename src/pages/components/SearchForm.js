@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 function SearchForm(){
     return(
 <div className='py-4 search-form'>
-                    <div className='container-fluid search-form-container py-4'>
+                    <div className='container-xl search-form-container py-4'>
                         <form>
                             <div className="row">
                                 <div className="mb-3 col-5 offset-1">

@@ -12,8 +12,8 @@ function Main() {
                 <SearchForm/>
                 <Promotions/>
                
-            <div className='bg-light py-4 container-fluid'>
-                <section>
+            <div className='py-4'>
+                <section className="container-xl">
                     <form action="">
                         <div className="row d-flex justify-content-center">
                             <div className="col-auto">

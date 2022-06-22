@@ -5,7 +5,7 @@ import prom4 from '../../images/promotion4.jpg'
 function Promotions(){
     return(
 <section className='my-5'>
-                    <div className="container">
+                    <div className="container-xl">
                         <div className="row">
                             <div className="col-lg-3 col-md-6 mb-4 d-flex align-items-stretch">
                                 <div className="card">

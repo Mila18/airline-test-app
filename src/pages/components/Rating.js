@@ -1,6 +1,6 @@
 function Rating(){
     return(
-        <div className="container-fluid">
+        <div className="container-xl">
                 <div className='row text-dark text-wrap text-break my-5'>
                     <div className="col-xl-3 col-sm-6 col-12">
                         <div className="card">
