@@ -2,7 +2,7 @@ import scheme from "../images/Scheme.jpg"
 import "./css/schemeStyle.css"
 function Seat(){
     return(
-        <div className="scheme">
+        <div className="container-fluid scheme">
             <img src={scheme} alt="planeScheme" width="100%" height="100%"/>
             <svg>
                 <polygon data-id="1" points=""></polygon>

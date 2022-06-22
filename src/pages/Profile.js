@@ -1,7 +1,8 @@
 function Profile(){
     return(
-        <div className="container mt-5">
-        <div className="main-body">
+        <div className="container-fluid my-5">
+          <div className="container">
+          <div className="main-body">
           <div className="row gutters-sm">
   
             <div className="col-md-5">
@@ -126,6 +127,7 @@ function Profile(){
   
           </div>
         </div>
+          </div>
       </div>
     );
 }

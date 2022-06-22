@@ -1,4 +1,4 @@
-import {Routes, Route, Link} from 'react-router-dom'
+import {Routes, Route} from 'react-router-dom'
 import Main from './pages/Main'
 import Login from './pages/Login'
 import Registration from './pages/Registration'
@@ -14,7 +14,7 @@ import Footer from './pages/components/Footer';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App mr-0">
       <Nav/>
       <Routes>
         <Route path="/" element={<Main/>}/>

@@ -1,7 +1,9 @@
 .links{
     text-decoration: none;
 }
-
+.nav{
+    background-color: rgb(225, 224, 225);
+}
 .footer{
-    background-color: rgba(225,224,225,0.7);
+    background-color: rgb(225, 224, 225);
 }

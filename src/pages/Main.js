@@ -8,10 +8,9 @@ import prom4 from '../images/promotion4.jpg'
 function Main() {
 
     return (
-        <div>
-
-            <div className='container-fluid'>
-                <div className='row text-dark text-wrap text-break my-5 mx-2'>
+            <div>
+                <div className="container-fluid">
+                <div className='row text-dark text-wrap text-break my-5'>
                     <div className="col-xl-3 col-sm-6 col-12">
                         <div className="card">
                             <div className="card-content">
@@ -84,9 +83,11 @@ function Main() {
                         </div>
                     </div>
                 </div>
+                </div>
+                
 
                 <div className='bg-light py-3'>
-                    <div className='container-sm'>
+                    <div className='container-fluid'>
                         <form>
                             <div className="mb-3 col-6">
                                 <label htmlFor="departureCity" className="form-label">Аэропорт отправления</label>
@@ -158,7 +159,7 @@ function Main() {
                                     <div className="card-body">
                                         <h5 className="card-title">Видеться чаще</h5>
                                         <p className="card-text">С начала января мы расширяем географию полетов по России, чтобы вы могли чаще видеть своих близких. Выбирайте нашу компанию, чтобы лететь туда, где вас всегда ждут.</p>
-                                        <a href="" className="btn btn-outline-primary btn-sm">Подробнее</a>
+                                        <a href="#" className="btn btn-outline-primary btn-sm">Подробнее</a>
                                     </div>
                                 </div>
                             </div>
@@ -169,7 +170,7 @@ function Main() {
                                         <h5 className="card-title">Все снова включено</h5>
                                         <p className="card-text">С 10 августа мы возобновим полеты в Турцию. Рейсы из Москвы в Анталию будут выполняться дважды
                                             в день ежедневно, а рейсы по маршруту Москва — Даламан будут выполняться от трех до семи раз в неделю.</p>
-                                        <a href="" className="btn btn-outline-primary btn-sm">Подробнее</a>
+                                        <a href="#" className="btn btn-outline-primary btn-sm" alt="">Подробнее</a>
                                     </div>
                                 </div>
                             </div>
@@ -177,20 +178,30 @@ function Main() {
                     </div>
                 </section>
                
-               <div className='bg-light py-4'>
-                   <h2 className='text-center mb-4'>Подписывайтесь на наши закрытые акции!</h2>
-                    <form className='container-sm text-center'>
-                        <div className="row mb-3">
-                            <label htmlFor="inputEmail" className="col-12 col-form-label fw-bold">Email</label>
-                            <div className="col-12">
-                                <input type="email" className="form-control" id="inputEmail"/>
+            <div className='bg-light py-4 container-fluid'>
+                <section>
+                    <form action="">
+                        <div className="row d-flex justify-content-center">
+                            <div className="col-auto">
+                                <p className="pt-2">
+                                    <strong>Подписывайтесь на наши закрытые акции</strong>
+                                </p>
+                            </div>
+                            <div className="col-md-5 col-12">
+                                <div className="form-outline form-white mb-4">
+                                    <input type="email" className="form-control" placeholder="Введите email" />
+                                </div>
+                            </div>
+                            <div className="col-auto">
+                                <button type="submit" className="btn btn-outline-dark mb-4">
+                                    Подписаться
+                                </button>
                             </div>
                         </div>
-                        <button type='sumbit' className='btn btn-primary'>Подписаться</button>
                     </form>
-               </div>
-            </div>   
-        </div>
+                </section>
+            </div>
+        </div>   
     );
 }
 

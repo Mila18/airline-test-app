@@ -1,76 +1,71 @@
 function Registration(){
-    return(       
-          <div className="container-fluid">
-                  <div className="row justify-content-center">
-                    <div className="col-md-10 col-lg-6 col-xl-5 order-2 order-lg-1">
-      
-                      <p className="text-center h1 fw-bold mb-5 mx-1 mx-md-4 mt-4">Регистрация</p>
-      
-                      <form className="mx-1 mx-md-4">
-
-                        <div className="d-flex flex-row align-items-center mb-4">
-                          <i className="fas fa-user fa-lg me-3 fa-fw"></i>
-                          <div className="form-outline flex-fill mb-0">
-                            <input type="text" id="name" className="form-control" />
-                            <label className="form-label" htmlFor="name">Имя</label>
-                          </div>
-                        </div>
-
-                        <div className="d-flex flex-row align-items-center mb-4">
-                          <i className="fas fa-user fa-lg me-3 fa-fw"></i>
-                          <div className="form-outline flex-fill mb-0">
-                            <input type="text" id="surname" className="form-control" />
-                            <label className="form-label" htmlFor="surname">Фамилия</label>
-                          </div>
-                        </div>
-
-                        <div className="d-flex flex-row align-items-center mb-4">
-                          <i className="fas fa-passport fa-lg me-3 fa-fw"></i>
-                          <div className="form-outline flex-fill mb-0">
-                            <input type="text" id="docNum" className="form-control" />
-                            <label className="form-label" htmlFor="docNum">Номер документа</label>
-                          </div>
-                        </div>
-      
-                        <div className="d-flex flex-row align-items-center mb-4">
-                          <i className="fas fa-phone fa-lg me-3 fa-fw"></i>
-                          <div className="form-outline flex-fill mb-0">
-                            <input type="email" id="telNum" className="form-control" />
-                            <label className="form-label" htmlFor="telNum">Телефон</label>
-                          </div>
-                        </div>
-      
-                        <div className="d-flex flex-row align-items-center mb-4">
-                          <i className="fas fa-lock fa-lg me-3 fa-fw"></i>
-                          <div className="form-outline flex-fill mb-0">
-                            <input type="password" id="password" className="form-control" />
-                            <label className="form-label" htmlFor="password">Пароль</label>
-                          </div>
-                        </div>
-      
-                        <div className="d-flex flex-row align-items-center mb-4">
-                          <i className="fas fa-key fa-lg me-3 fa-fw"></i>
-                          <div className="form-outline flex-fill mb-0">
-                            <input type="password" id="repeatP" className="form-control" />
-                            <label className="form-label" htmlFor="repeatP">Повторите пароль</label>
-                          </div>
-                        </div>
-        
-                        <div className="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
-                          <button type="button" className="btn btn-primary btn-lg">Зарегистрироваться</button>
-                        </div>
-      
-                      </form>
-      
-                    </div>
-                    <div className="col-md-10 col-lg-6 col-xl-7 d-flex align-items-center order-1 order-lg-2">
-      
-                      <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-registration/draw1.webp"
-                        className="img-fluid" alt=""/>
-      
-                    </div>
+    return(      
+      <div className="container-fluid my-5">
+        <section>
+          <div className="row d-flex align-items-center ">
+            <div className="col-lg-5 col-md-12 offset-lg-1">
+              <form>
+                <p className=" text-center lead fw-normal me-3 fs-3">Регистрация</p>
+                <div className="d-flex flex-row align-items-center mb-4">
+                  <i className="fas fa-user fa-lg me-3 mt-4 fa-fw"></i>
+                  <div className="form-outline flex-fill mb-0">
+                    <label className="form-label" htmlFor="name">Имя</label>
+                    <input type="text" id="name" className="form-control" />
                   </div>
+                </div>
+
+                <div className="d-flex flex-row align-items-center mb-4">
+                  <i className="fas fa-user fa-lg me-3 mt-4 fa-fw"></i>
+                  <div className="form-outline flex-fill mb-0">
+                    <label className="form-label" htmlFor="surname">Фамилия</label>
+                    <input type="text" id="surname" className="form-control" />
                   </div>
+                </div>
+
+                <div className="d-flex flex-row align-items-center mb-4">
+                  <i className="fas fa-passport fa-lg me-3 mt-4 fa-fw"></i>
+                  <div className="form-outline flex-fill mb-0">
+                    <label className="form-label" htmlFor="docNum">Номер документа</label>
+                    <input type="text" id="docNum" className="form-control" />
+                  </div>
+                </div>
+
+                <div className="d-flex flex-row align-items-center mb-4">
+                  <i className="fas fa-phone fa-lg me-3 mt-4 fa-fw"></i>
+                  <div className="form-outline flex-fill mb-0">
+                    <label className="form-label" htmlFor="telNum">Телефон</label>
+                    <input type="email" id="telNum" className="form-control" />
+                  </div>
+                </div>
+
+                <div className="d-flex flex-row align-items-center mb-4">
+                  <i className="fas fa-lock fa-lg me-3 mt-4 fa-fw"></i>
+                  <div className="form-outline flex-fill mb-0">
+                    <label className="form-label" htmlFor="password">Пароль</label>
+                    <input type="password" id="password" className="form-control" />
+                  </div>
+                </div>
+
+                <div className="d-flex flex-row align-items-center mb-4">
+                  <i className="fas fa-key fa-lg me-3 mt-4 fa-fw"></i>
+                  <div className="form-outline flex-fill mb-0">
+                    <label className="form-label" htmlFor="repeatP">Повторите пароль</label>
+                    <input type="password" id="repeatP" className="form-control" />
+                  </div>
+                </div>
+
+                <div className="text-center pt-2">
+                  <button type="button" className="btn btn-primary">Зарегистрироваться</button>
+                </div>
+              </form>
+            </div>
+
+            <div className="col-lg-6 col-md-12">
+              <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.webp" className="img-fluid" alt="" />
+            </div>
+          </div>
+        </section>
+      </div>
     );
 }
 
