@@ -54,10 +54,10 @@ function BookingManagement (){
                                 N17847209
                             </td>
                             <td>
-                                A8
+                            <Link to="/seat" className="link-secondary">A8</Link>
                             </td>
                             <td>
-                                C3
+                            <Link to="/seat" className="link-secondary">C3</Link>
                             </td>
                         </tr>
                         <tr>
@@ -74,10 +74,10 @@ function BookingManagement (){
                                 N17847580
                             </td>
                             <td>
-                                B8
+                            <Link to="/seat" className="link-secondary">B8</Link>
                             </td>
                             <td>
-                                D3
+                            <Link to="/seat" className="link-secondary">D3</Link>
                             </td>
                         </tr>
                         <tr>
@@ -94,10 +94,10 @@ function BookingManagement (){
                                 N94847209
                             </td>
                             <td>
-                                С8
+                            <Link to="/seat" className="link-secondary">C8</Link>
                             </td>
                             <td>
-                                A3
+                            <Link to="/seat" className="link-secondary">A3</Link>
                             </td>
                         </tr>
                     </tbody>
@@ -193,9 +193,9 @@ function BookingManagement (){
                 </div>
                 
             </div>
-            <div className="my-5 text-center">
+            {/* <div className="my-5 text-center">
             <Link to="/seat"><button className="btn btn-primary">Выбрать место</button></Link>
-            </div>
+            </div> */}
         </div>
     );
 }

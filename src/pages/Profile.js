@@ -1,6 +1,6 @@
 function Profile(){
     return(
-        <div className="container-xl my-5">
+        <div className="container-xl my-5 content">
           
           <div className="main-body">
           <div className="row gutters-sm">
