@@ -1,23 +1,270 @@
-import scheme from "../images/Scheme.jpg"
 import "./css/schemeStyle.css"
 function Seat(){
     return(
-        <div className="container-fluid scheme">
-            <img src={scheme} alt="planeScheme" width="100%" height="100%"/>
-            <svg>
-                <polygon data-id="1" points=""></polygon>
-                <polygon data-id="2" points=""></polygon>
-                <polygon data-id="3" points=""></polygon>
-                <polygon data-id="4" points=""></polygon>
-                <polygon data-id="5" points=""></polygon>
-                <polygon data-id="6" points=""></polygon>
-                <polygon data-id="7" points=""></polygon>
-                <polygon data-id="8" points=""></polygon>
-                <polygon data-id="9" points=""></polygon>
-                <polygon data-id="10" points=""></polygon>
-                <polygon data-id="11" points=""></polygon>
-                <polygon data-id="12" points=""></polygon>
-            </svg>
+        <div className="container-xl my-5">
+            <div className="row">
+                <div className="col-6">
+                    <h3>Условные обозначения</h3>
+                </div>
+                <div className="col-6">
+                    {/* <div className="row">
+                        <div className="col-2 text-center">
+                            <input type="checkbox"/>
+                            <input type="checkbox"/>
+                            <input type="checkbox"/>
+                            <input type="checkbox"/>
+                            <input type="checkbox"/>
+                            <input type="checkbox"/>
+                            <input type="checkbox"/>
+                            <input type="checkbox"/>
+                        </div>
+                        <div className="col-2 text-center">
+                            <input type="checkbox"/>
+                            <input type="checkbox"/>
+                            <input type="checkbox"/>
+                            <input type="checkbox"/>
+                            <input type="checkbox"/>
+                            <input type="checkbox"/>
+                            <input type="checkbox"/>
+                            <input type="checkbox"/>
+                        </div>
+                        <div className="col-2 text-center">
+                            <h3 className="mb-3">1</h3>
+                            <h3 className="mb-3">2</h3>
+                            <h3 className="mb-3">3</h3>
+                            <h3 className="mb-3">4</h3>
+                            <h3 className="mb-3">5</h3>
+                            <h3 className="mb-3">6</h3>
+                            <h3 className="mb-3">7</h3>
+                            <h3 className="mb-3">8</h3>
+                        </div>
+                        <div className="col-2 text-center">
+                            <input type="checkbox"/>
+                            <input type="checkbox"/>
+                            <input type="checkbox"/>
+                            <input type="checkbox"/>
+                            <input type="checkbox"/>
+                            <input type="checkbox"/>
+                            <input type="checkbox"/>
+                            <input type="checkbox"/>
+                        </div>
+                        <div className="col-2 text-center">
+                            <input type="checkbox"/>
+                            <input type="checkbox"/>
+                            <input type="checkbox"/>
+                            <input type="checkbox"/>
+                            <input type="checkbox"/>
+                            <input type="checkbox"/>
+                            <input type="checkbox"/>
+                            <input type="checkbox"/>
+                        </div>
+                    </div> */}
+                    <div className="row">
+                        <div className="col-2 text-center">
+                            <input type="checkbox"/>
+                        </div>
+                        <div className="col-2 text-center">
+                            <input type="checkbox"/>
+                        </div>
+                        <div className="col-2 text-center">
+                            <h3>1</h3>
+                        </div>
+                        <div className="col-2 text-center">
+                            <input type="checkbox"/>
+                        </div>
+                        <div className="col-2 text-center">
+                            <input type="checkbox"/>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-2 text-center">
+                            <input type="checkbox"/>
+                        </div>
+                        <div className="col-2 text-center">
+                            <input type="checkbox"/>
+                        </div>
+                        <div className="col-2 text-center">
+                            <h3>2</h3>
+                        </div>
+                        <div className="col-2 text-center">
+                            <input type="checkbox"/>
+                        </div>
+                        <div className="col-2 text-center">
+                            <input type="checkbox"/>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-2 text-center">
+                            <input type="checkbox"/>
+                        </div>
+                        <div className="col-2 text-center">
+                            <input type="checkbox"/>
+                        </div>
+                        <div className="col-2 text-center">
+                            <h3>3</h3>
+                        </div>
+                        <div className="col-2 text-center">
+                            <input type="checkbox"/>
+                        </div>
+                        <div className="col-2 text-center">
+                            <input type="checkbox"/>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-2 text-center">
+                            <input type="checkbox"/>
+                        </div>
+                        <div className="col-2 text-center">
+                            <input type="checkbox"/>
+                        </div>
+                        <div className="col-2 text-center">
+                            <h3>4</h3>
+                        </div>
+                        <div className="col-2 text-center">
+                            <input type="checkbox"/>
+                        </div>
+                        <div className="col-2 text-center">
+                            <input type="checkbox"/>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-2 text-center">
+                            <input type="checkbox"/>
+                        </div>
+                        <div className="col-2 text-center">
+                            <input type="checkbox"/>
+                        </div>
+                        <div className="col-2 text-center">
+                            <h3>5</h3>
+                        </div>
+                        <div className="col-2 text-center">
+                            <input type="checkbox"/>
+                        </div>
+                        <div className="col-2 text-center">
+                            <input type="checkbox"/>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-2 text-center">
+                            <input type="checkbox"/>
+                        </div>
+                        <div className="col-2 text-center">
+                            <input type="checkbox"/>
+                        </div>
+                        <div className="col-2 text-center">
+                            <h3>6</h3>
+                        </div>
+                        <div className="col-2 text-center">
+                            <input type="checkbox"/>
+                        </div>
+                        <div className="col-2 text-center">
+                            <input type="checkbox"/>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-2 text-center">
+                            <input type="checkbox"/>
+                        </div>
+                        <div className="col-2 text-center">
+                            <input type="checkbox"/>
+                        </div>
+                        <div className="col-2 text-center">
+                            <h3>7</h3>
+                        </div>
+                        <div className="col-2 text-center">
+                            <input type="checkbox"/>
+                        </div>
+                        <div className="col-2 text-center">
+                            <input type="checkbox"/>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-2 text-center">
+                            <input type="checkbox"/>
+                        </div>
+                        <div className="col-2 text-center">
+                            <input type="checkbox"/>
+                        </div>
+                        <div className="col-2 text-center">
+                            <h3>8</h3>
+                        </div>
+                        <div className="col-2 text-center">
+                            <input type="checkbox"/>
+                        </div>
+                        <div className="col-2 text-center">
+                            <input type="checkbox"/>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-2 text-center">
+                            <input type="checkbox"/>
+                        </div>
+                        <div className="col-2 text-center">
+                            <input type="checkbox"/>
+                        </div>
+                        <div className="col-2 text-center">
+                            <h3>9</h3>
+                        </div>
+                        <div className="col-2 text-center">
+                            <input type="checkbox"/>
+                        </div>
+                        <div className="col-2 text-center">
+                            <input type="checkbox"/>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-2 text-center">
+                            <input type="checkbox"/>
+                        </div>
+                        <div className="col-2 text-center">
+                            <input type="checkbox"/>
+                        </div>
+                        <div className="col-2 text-center">
+                            <h3>10</h3>
+                        </div>
+                        <div className="col-2 text-center">
+                            <input type="checkbox"/>
+                        </div>
+                        <div className="col-2 text-center">
+                            <input type="checkbox"/>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-2 text-center">
+                            <input type="checkbox"/>
+                        </div>
+                        <div className="col-2 text-center">
+                            <input type="checkbox"/>
+                        </div>
+                        <div className="col-2 text-center">
+                            <h3>11</h3>
+                        </div>
+                        <div className="col-2 text-center">
+                            <input type="checkbox"/>
+                        </div>
+                        <div className="col-2 text-center">
+                            <input type="checkbox"/>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-2 text-center">
+                            <input type="checkbox"/>
+                        </div>
+                        <div className="col-2 text-center">
+                            <input type="checkbox"/>
+                        </div>
+                        <div className="col-2 text-center">
+                            <h3>12</h3>
+                        </div>
+                        <div className="col-2 text-center">
+                            <input type="checkbox"/>
+                        </div>
+                        <div className="col-2 text-center">
+                            <input type="checkbox"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     );
 }
